@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	<hibernate-configuration>
+	<session-factory>
+	<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/cj3</property>
+	<property name="hibernate.connection.username">root</property>
+	<property name="hibernate.connection.password">roothaider62586@</property>
+	<property name="hibernate.hbm2ddl.auto">create</property>
+	
+	<mapping class="com.theone.hibernate.One2One.PrimeMinister"/>
+	<mapping class="com.theone.hibernate.One2One.Country"/>
+	
+	<mapping class="com.hibernate.theone.One2Many.Customer"/>
+	<mapping class="com.hibernate.theone.One2Many.Phone"/>
+	
+	<mapping class="com.theone.hibernate.Many2One.Player"/>
+	<mapping class="com.theone.hibernate.Many2One.Team"/>
+	
+	<mapping class="com.hibernate.hibernate.Many2Many.Doctor"/>
+	<mapping class="com.hibernate.hibernate.Many2Many.Patient"/>
+	</session-factory>
+	</hibernate-configuration>
