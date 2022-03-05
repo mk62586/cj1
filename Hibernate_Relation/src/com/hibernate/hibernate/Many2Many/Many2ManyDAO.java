@@ -11,7 +11,6 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 
-
 public class Many2ManyDAO {
 
 	public static void main(String[] args) {
@@ -57,7 +56,6 @@ public class Many2ManyDAO {
 		pa.setPatientName("Vimal");
 	    
 	
-		
 		List<Doctor> doctorH = new ArrayList<Doctor>();
 		doctorH.add(dr);
 		doctorH.add(dr1);

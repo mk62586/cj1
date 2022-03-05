@@ -17,7 +17,7 @@ public class Player {
 	private int teamId;
 	private String playerName;
 	
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne(cascade = CascadeType.ALL)             
 	@JoinColumn(referencedColumnName = "teamId")
 	private Team team;
 	
