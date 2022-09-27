@@ -19,6 +19,8 @@ public class App
     	EntityManager entityManager = factory.createEntityManager();
     	EntityTransaction transaction = entityManager.getTransaction();
     	transaction.begin();
+		//Answ
+		int a =19;
     	
     	StudentModel st = new StudentModel();
     	
