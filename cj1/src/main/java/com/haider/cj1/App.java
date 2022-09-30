@@ -20,11 +20,11 @@ public class App
     	EntityTransaction transaction = entityManager.getTransaction();
     	transaction.begin();
 		//Answ
-		int a =19;
+		int a =50;
     	
     	StudentModel st = new StudentModel();
     	
-    	st.setName("laxman");
+    	st.setName("Mukesh");
     	st.setRoll(255);
     	
     	entityManager.persist(st);
