@@ -24,7 +24,8 @@ private int age;
 private String github;
 =======
 private int gitPractice;
-//yyyyy
+
+private String team;
 
 @OneToOne(cascade = CascadeType.ALL)
 private Father fa;
