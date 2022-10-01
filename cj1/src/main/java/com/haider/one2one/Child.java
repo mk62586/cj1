@@ -20,7 +20,11 @@ public class Child {
 private int cId;
 private  String childName;
 private int age;
+<<<<<<< HEAD
 private String github;
+=======
+private int gitPractice;
+//yyyyy
 
 @OneToOne(cascade = CascadeType.ALL)
 private Father fa;
