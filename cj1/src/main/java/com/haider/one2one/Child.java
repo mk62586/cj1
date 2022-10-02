@@ -26,6 +26,7 @@ private String github;
 private int gitPractice;
 
 private String team;
+private String tttttttttt;
 
 @OneToOne(cascade = CascadeType.ALL)
 private Father fa;
