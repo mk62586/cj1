@@ -36,5 +36,5 @@ public class Mobile {
 	inverseJoinColumns = @JoinColumn(name="pep"))
 	
 	private List<Person> person;
-
+ // mobile many to many program with hibernatnate
 }
